@@ -5,6 +5,15 @@
 
 Uses your Lakeview tenant and Azure subscription. 📸 = screenshot. Redact the subscription ID and tenant domain.
 
+## Before you start
+
+**Accounts**
+- [ ] **Your Lakeview Health Entra tenant and Azure subscription** (the ones running DC01). Sign in as your Global Admin.
+- [ ] **Authenticator app** on your phone: Jordan Lee will register in Microsoft Authenticator because CA001 requires MFA. You can add Jordan as a second account in the same app.
+
+**Software:** none. The portal and **Cloud Shell** run in the browser.
+*First time in Cloud Shell:* choose **Bash**, then **No storage account required**, pick your subscription, and Apply.
+
 ## Least privilege (15 min)
 
 **1. Test user and resource groups.** Entra admin > Users > New user **Jordan Lee**, job title **Junior Developer**. Azure portal > Resource groups > create `rg-lakeview-dev` and `rg-lakeview-prod`.
