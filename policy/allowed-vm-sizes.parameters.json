@@ -1,0 +1,8 @@
+{
+  "listOfAllowedSKUs": {
+    "value": [
+      "Standard_B1s",
+      "Standard_B2s"
+    ]
+  }
+}
